@@ -27,7 +27,7 @@ var root = React.createElement('div');
 React.render(root, document.body);
 ```
 
-要添加属性到 DOM 元素，把属性对象作为第二个参数传入 `React.render`，把子级作为第三个参数传给 `React.render`。
+要添加属性到 DOM 元素，把属性对象作为第二个参数传入 `React.createElement`，把子级作为第三个参数传给 `React.createElement`。
 
 ```javascript
 var child = React.createElement('li', null, 'Text Content');
